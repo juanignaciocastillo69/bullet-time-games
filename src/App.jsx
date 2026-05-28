@@ -10,7 +10,7 @@ import { CartProvider } from "./context/CartContext";
 function App() {
   return (
     <CartProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/bullet-time-games">
         <main className="app">
           <Navbar />
 
